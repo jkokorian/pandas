@@ -302,7 +302,7 @@ def read_hdf(path_or_buf, key=None, **kwargs):
 
     # ensure 'mode' is not 'w'
     if 'mode' in kwargs and kwargs['mode'] == 'w':
-    	pass
+        pass
 
     path_or_buf = _stringify_path(path_or_buf)
     if isinstance(path_or_buf, string_types):
